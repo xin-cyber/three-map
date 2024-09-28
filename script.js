@@ -1,8 +1,8 @@
-import * as THREE from './node_modules/three';
-import { OrbitControls } from './node_modules/three/examples/jsm/controls/OrbitControls.js';
-import * as d3 from './node_modules/d3';
-import { TextGeometry } from './node_modules/three/examples/jsm/geometries/TextGeometry.js';
-import { FontLoader } from './node_modules/three/examples/jsm/loaders/FontLoader.js';
+import * as THREE from 'three';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import * as d3 from 'd3';
+import { TextGeometry } from 'three/addons/geometries/TextGeometry.js';
+import { FontLoader } from 'three/addons/loaders/FontLoader.js';
 
 const colorArray = [
     '#6d8cbe',
