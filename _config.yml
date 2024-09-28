@@ -1,4 +1,4 @@
 # _config file with Jekyll 4.0.0 (and newer)
 include:
   - .htaccess
-  - node_modules
+  - /node_modules
