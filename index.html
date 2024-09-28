@@ -9,5 +9,14 @@
   <body>
     <canvas id="container" />
     <script type="module" src="script.js"></script>
+    <script type="importmap">
+      <!-- 适配github部署 -->
+      {
+        "imports": {
+          "three": "./node_modules/three/build/three.module.js",
+          "three/addons/": "./node_modules/three/examples/jsm/"
+        }
+      }
+    </script>    
   </body>
 </html>
