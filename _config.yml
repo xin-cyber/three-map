@@ -1,0 +1,3 @@
+# FILEPATH: /cloudide/workspace/three-map/_config.yml
+include:
+  - node_modules
