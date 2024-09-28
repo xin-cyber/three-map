@@ -1,0 +1,16 @@
+{
+  "name": "web-test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "vite --host --port=8000"
+  },
+  "devDependencies": {
+    "vite": "^5.2.12",
+    "vite-plugin-full-reload": "^1.1.0"
+  },
+  "dependencies": {
+    "d3": "^7.9.0",
+    "three": "^0.169.0"
+  }
+}

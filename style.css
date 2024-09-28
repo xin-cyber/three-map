@@ -1,0 +1,28 @@
+body{
+    overflow: hidden;
+}
+#container{
+    width: 100%!important;
+    height: 100%!important;
+}
+#tooltip{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 300px;
+    background-color: #fff;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 10px 20px 35px;
+
+    h1{
+        text-align: center;
+    }
+
+    p{
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
