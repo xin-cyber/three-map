@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "start": "vite --host --port=8000"
+    
   },
   "devDependencies": {
     "vite": "^5.2.12",
